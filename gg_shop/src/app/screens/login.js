@@ -1,6 +1,6 @@
 import '../styles/login.css';
 
-export function login () {
+export function Login () {
 return (
     <div>
         <h1>hola mundo</h1>
