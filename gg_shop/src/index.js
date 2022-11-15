@@ -11,6 +11,8 @@ import {
 import reportWebVitals from './reportWebVitals';
 import { Login } from './app/screens/login';
 import { Dashboard } from './app/screens/dashboard';
+import { fpassword } from './app/screens/fpassword';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +21,7 @@ root.render(
       <Routes>
         <Route exact path='/' element={< Login />}></Route>
         <Route exact path='/dashboard' element={< Dashboard />}></Route>
+        <Route exact path='/forgotPassword' element={< fpassword />}></Route>
       </Routes>
     </Router>
   </React.StrictMode>

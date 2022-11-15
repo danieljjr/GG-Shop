@@ -23,7 +23,7 @@ return (
         <div class="input-contenedor">
             <p>Contraseña</p>
             <input type="password" placeholder="contraseña"></input> 
-            <p class="texto"><a class="link">Olvide Mi Contraseña</a></p>
+            <p class="texto"><a class="link" href="/forgotPassword">Olvide Mi Contraseña</a></p>
 
         </div>
          
