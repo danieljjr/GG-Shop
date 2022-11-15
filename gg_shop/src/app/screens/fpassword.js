@@ -1,15 +1,14 @@
 import  '../styles/fpassword.css';
 
-export const fpassword =()  =>{
+export const Fpassword = ()  =>{
     return (
+     
+    
 
-<body>
-<h1>hola mundo</h1>
-
-
-</body>
-
-);
+      <div>   
+        <h1>TO DO!</h1>
+        </div>
+      );
 
 
 }

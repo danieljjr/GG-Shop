@@ -70,19 +70,21 @@ input[type="password"]{
 }
 
 .button{
-    
-    margin-top: 60px;
-    width: 45%;
+    width: 40%;
     font-size: 20px;
     background: #a34cde;
-    padding: auto;
-    cursor: pointer;
-    margin-left: 2px;
-    
+    cursor: pointer;    
 }
 
 
 
 .button:hover{
     background: #22ece2;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
 }

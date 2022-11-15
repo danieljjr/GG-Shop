@@ -1,6 +1,7 @@
 import '../styles/login.css';
+import { Link } from 'react-router-dom';
 
-export function Login () {
+export const Login = () => {
 return (
     
     <body>
@@ -23,14 +24,15 @@ return (
         <div class="input-contenedor">
             <p>Contraseña</p>
             <input type="password" placeholder="contraseña"></input> 
-            <p class="texto"><a class="link" href="/forgotPassword">Olvide Mi Contraseña</a></p>
+            <p class="texto"><Link to="/forgotPassword">Olvide Mi Contraseña</Link></p>
 
         </div>
-         
+        
+       </div>
+       <div class="buttonsContainer">
          <input type="submit" value="login" class="button"></input>
          <input type="submit" value="Register" class="button"></input>
-         
-       </div>
+         </div>
      </form>  
         
 
