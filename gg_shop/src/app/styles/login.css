@@ -10,16 +10,23 @@ h1{
 
 .logo{
     
-    background: #22ece2;
+    
     background-image: url(logoav.png);
     background-position: center;
     background-size: cover;
     width: 234px;
     height: 234px;
     margin: auto;
-    display: flex;
-    justify-content: center;
    
+    
+   
+}
+
+.logoContainer {
+
+    
+
+
 }
 
 .contenedor{

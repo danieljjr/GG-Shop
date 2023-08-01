@@ -7,7 +7,9 @@ return (
     <body>
     <form class="formulario">
        
-       <div class="logo">
+       
+       <div class ="logoContainer">
+       <div class ="logo"/>
        
        
       
