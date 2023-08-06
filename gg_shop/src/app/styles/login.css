@@ -8,22 +8,29 @@ h1{
     text-align: center;
 }
 
-.logo{
+.logo1{
     
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(logoav.png);
     background-position: center;
     background-size: cover;
-    width: 234px;
-    height: 234px;
-    margin: auto;
+    width: 205px;
+    height: 110px;
+ 
+    
    
     
    
 }
 
-.logoContainer {
+.logoContainer1 {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
     
 
 
@@ -31,9 +38,12 @@ h1{
 
 .contenedor{
    
-      width: 100%;
+      width: 90%;
       padding: 15px;
       align-items: center;
+
+      
+      
      
    
       
@@ -70,20 +80,22 @@ input[type="password"]{
     font-size: 10px;
     text-align: right;
     
+    
    
     
 }
 
 .input-contenedor{
-    margin-top: 5px;
+    margin-bottom: px;
    
 }
 
 .button{
-   
+    
     width: 40%;
     font-size: 20px;
     background: #a34cde;
+    padding: auto;
     cursor: pointer;    
 }
 
@@ -95,6 +107,6 @@ input[type="password"]{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px;
+    padding: 15px;
 }
 
